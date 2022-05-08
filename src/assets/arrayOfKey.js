@@ -152,6 +152,171 @@ const ARRAY_OF_KEY = [
     enCaseUp: 'Backspace',
     enCaps: 'Backspace',
     enShiftCaps: 'Backspace'
+  },
+  {
+    keyName: 'Tab',
+    ruCaseDown: 'Tab',
+    ruCaseUp: 'Tab',
+    ruCaps: 'Tab',
+    ruShiftCaps: 'Tab',
+    enCaseDown: 'Tab',
+    enCaseUp: 'Tab',
+    enCaps: 'Tab',
+    enShiftCaps: 'Tab'
+  },
+  {
+    keyName: 'KeyQ',
+    ruCaseDown: 'й',
+    ruCaseUp: 'Й',
+    ruCaps: 'Й',
+    ruShiftCaps: 'й',
+    enCaseDown: 'q',
+    enCaseUp: 'Q',
+    enCaps: 'Q',
+    enShiftCaps: 'q'
+  },
+  {
+    keyName: 'KeyW',
+    ruCaseDown: 'ц',
+    ruCaseUp: 'Ц',
+    ruCaps: 'Ц',
+    ruShiftCaps: 'ц',
+    enCaseDown: 'w',
+    enCaseUp: 'W',
+    enCaps: 'W',
+    enShiftCaps: 'w'
+  },
+  {
+    keyName: 'KeyE',
+    ruCaseDown: 'у',
+    ruCaseUp: 'У',
+    ruCaps: 'У',
+    ruShiftCaps: 'у',
+    enCaseDown: 'e',
+    enCaseUp: 'E',
+    enCaps: 'E',
+    enShiftCaps: 'e'
+  },
+  {
+    keyName: 'KeyR',
+    ruCaseDown: 'к',
+    ruCaseUp: 'К',
+    ruCaps: 'К',
+    ruShiftCaps: 'к',
+    enCaseDown: 'r',
+    enCaseUp: 'R',
+    enCaps: 'R',
+    enShiftCaps: 'r'
+  },
+  {
+    keyName: 'KeyT',
+    ruCaseDown: 'е',
+    ruCaseUp: 'Е',
+    ruCaps: 'Е',
+    ruShiftCaps: 'е',
+    enCaseDown: 't',
+    enCaseUp: 'T',
+    enCaps: 'T',
+    enShiftCaps: 't'
+  },
+  {
+    keyName: 'KeyY',
+    ruCaseDown: 'н',
+    ruCaseUp: 'Н',
+    ruCaps: 'Н',
+    ruShiftCaps: 'н',
+    enCaseDown: 'y',
+    enCaseUp: 'Y',
+    enCaps: 'Y',
+    enShiftCaps: 'y'
+  },
+  {
+    keyName: 'KeyU',
+    ruCaseDown: 'г',
+    ruCaseUp: 'Г',
+    ruCaps: 'Г',
+    ruShiftCaps: 'г',
+    enCaseDown: 'u',
+    enCaseUp: 'U',
+    enCaps: 'U',
+    enShiftCaps: 'u'
+  },
+  {
+    keyName: 'KeyI',
+    ruCaseDown: 'ш',
+    ruCaseUp: 'Ш',
+    ruCaps: 'Ш',
+    ruShiftCaps: 'ш',
+    enCaseDown: 'i',
+    enCaseUp: 'I',
+    enCaps: 'I',
+    enShiftCaps: 'i'
+  },
+  {
+    keyName: 'KeyO',
+    ruCaseDown: 'щ',
+    ruCaseUp: 'Щ',
+    ruCaps: 'Щ',
+    ruShiftCaps: 'щ',
+    enCaseDown: 'o',
+    enCaseUp: 'O',
+    enCaps: 'O',
+    enShiftCaps: 'o'
+  },
+  {
+    keyName: 'KeyP',
+    ruCaseDown: 'з',
+    ruCaseUp: 'З',
+    ruCaps: 'З',
+    ruShiftCaps: 'з',
+    enCaseDown: 'p',
+    enCaseUp: 'P',
+    enCaps: 'P',
+    enShiftCaps: 'p'
+  },
+  {
+    keyName: 'BracketLeft',
+    ruCaseDown: 'х',
+    ruCaseUp: 'Х',
+    ruCaps: 'Х',
+    ruShiftCaps: 'х',
+    enCaseDown: '[',
+    enCaseUp: '{',
+    enCaps: '[',
+    enShiftCaps: '{'
+  },
+  {
+    keyName: 'BracketRight',
+    ruCaseDown: 'ъ',
+    ruCaseUp: 'Ъ',
+    ruCaps: 'Ъ',
+    ruShiftCaps: 'ъ',
+    enCaseDown: ']',
+    enCaseUp: '}',
+    enCaps: ']',
+    enShiftCaps: '}'
+  },
+  {
+    keyName: 'Backslash',
+    ruCaseDown: '\\',
+    ruCaseUp: '/',
+    ruCaps: '\\',
+    ruShiftCaps: '/',
+    enCaseDown: '\\',
+    enCaseUp: '|',
+    enCaps: '\\',
+    enShiftCaps: '|'
+  },
+  {
+    keyName: 'Delete',
+    ruCaseDown: 'Del',
+    ruCaseUp: 'Del',
+    ruCaps: 'Del',
+    ruShiftCaps: 'Del',
+    enCaseDown: 'Del',
+    enCaseUp: 'Del',
+    enCaps: 'Del',
+    enShiftCaps: 'Del'
   }
 ];
 
