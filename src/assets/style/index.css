@@ -1,0 +1,14 @@
+@import '~normalize.css';
+
+.hidden {
+  display: none;
+}
+
+.keyboard-key {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: rgb(131, 159, 244);
+  text-align: center;
+  margin: 3px;
+}
