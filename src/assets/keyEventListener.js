@@ -19,10 +19,8 @@ const keyEventListener = () => {
 
   // EventListener for a Backspace
   const keyBackspace = () => {
-    console.log('jdk');
     TEXTAREA.focus();
     let position = TEXTAREA.selectionStart;
-    console.log(position);
     TEXTAREA.value = TEXTAREA.value.slice(0, position - 1) + TEXTAREA.value.slice(position);
   };
 
@@ -53,7 +51,6 @@ const keyEventListener = () => {
   }
 
   window.onkeydown = (e) => {
-    console.log(e.code);
     if (e.code === 'Tab') {
       if (document.querySelector('textarea:focus')) {
         keyTab();
@@ -146,7 +143,6 @@ const keyEventListener = () => {
       return false;
     } else if ((key === 'ShiftRight' || key === 'ShiftLeft')
     && document.querySelector('.CapsLock').classList[2] === 'active') {
-      console.log('okey');
       shiftCapsLock();
     } else if (key === 'ShiftRight' || key === 'ShiftLeft') {
       shift();
