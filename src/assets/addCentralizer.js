@@ -194,7 +194,7 @@ const addCentralizer = () => {
 
   // Create language
   let language = createDomNode('p', 'language');
-  language.innerHTML = 'Для переключения языка комбинация: левыe ctrl + alt';
+  language.innerHTML = 'Для переключения языка комбинация: ctrl + alt';
 
   centralizer.append(title);
   centralizer.append(textarea);

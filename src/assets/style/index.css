@@ -2,7 +2,7 @@
 
 .centralizer {
   margin: 0 auto;
-  font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+  font-family: Georgia, 'Century Schoolbook L', serif;
 }
 .textarea {
   display: block;
@@ -11,7 +11,7 @@
   margin: 10px auto 10px;
   padding: 10px;
   font-size: 18px;
-  color: #444444;
+  color: #374785;
 }
 .caseDown,
 .caseUp,
@@ -32,9 +32,7 @@
 }
 .title {
   font-size: 30px;
-  color: rgba(101, 134, 177, 0.8);
-  -webkit-text-stroke: 1px rgba(114, 177, 101, 0.8);
-  -webkit-text-fill-color: rgba(101, 134, 177, 0.8);
+  color: #f76c6c;
 }
 .keyboard {
   width: 704px;
@@ -42,8 +40,8 @@
   padding: 5px;
   padding-left: 0;
   padding-bottom: 0;
-  background: #888888;
-  border: 3px solid #222222;
+  background: #f8e9a1;
+  border: 3px solid #24305e;
   border-radius: 5px;
 }
 .keyboard .row {
@@ -61,18 +59,26 @@
   line-height: 40px;
   text-align: center;
   color: #ffffff;
-  background: #444444;
+  background: #f76c6c;
   border-radius: 3px;
   cursor: pointer;
   user-select: none;
   transition: border-radius 0.3s, background-color 0.3s;
 }
 .keyboard .key:hover {
-  background: #79aa89;
+  background: #24305e;
 }
 .keyboard .key.active {
-  background-color: #2cfd72;
+  background: #a8d0e6;
   border-radius: 50px;
+  z-index: 2;
+  transform: scale(1.2);
+}
+.keyboard .Space.active {
+  background: #a8d0e6;
+  border-radius: 50px;
+  z-index: 2;
+  transform: scale(1.1);
 }
 .keyboard .AltLeft,
 .keyboard .AltRight,
@@ -91,7 +97,7 @@
 .keyboard .Tab,
 .keyboard .MetaLeft {
   font-weight: 600;
-  background-color: #222222;
+  background: #374785;
 }
 .keyboard .Tab {
   width: 50px;
@@ -110,4 +116,8 @@
 }
 .keyboard .Space {
   width: 330px;
+}
+.description,
+.language {
+  color: #374785;
 }
