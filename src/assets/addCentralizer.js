@@ -59,8 +59,54 @@ const addCentralizer = () => {
   let Backslash = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Backslash'));
   let Delete = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Delete'));
 
+  let CapsLock = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'CapsLock'));
+  let KeyA = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyA'));
+  let KeyS = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyS'));
+  let KeyD = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyD'));
+  let KeyF = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyF'));
+  let KeyG = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyG'));
+  let KeyH = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyH'));
+  let KeyJ = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyJ'));
+  let KeyK = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyK'));
+  let KeyL = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyL'));
+  let Semicolon = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Semicolon'));
+  let Quote = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Quote'));
+  let Enter = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Enter'));
+
+  let ShiftLeft = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'ShiftLeft'));
+  let KeyZ = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyZ'));
+  let KeyX = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyX'));
+  let KeyC = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyC'));
+  let KeyV = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyV'));
+  let KeyB = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyB'));
+  let KeyN = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyN'));
+  let KeyM = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'KeyM'));
+  let Comma = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Comma'));
+  let Period = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Period'));
+  let Slash = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Slash'));
+  let ArrowUp = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'ArrowUp'));
+  let ShiftRight = new Key(
+    ARRAY_OF_KEY.find((i) => i.keyName === 'ShiftRight')
+  );
+
+  let ControlLeft = new Key(
+    ARRAY_OF_KEY.find((i) => i.keyName === 'ControlLeft')
+  );
+  let MetaLeft = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'MetaLeft'));
+  let AltLeft = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'AltLeft'));
+  let Space = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'Space'));
+  let AltRight = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'AltRight'));
+  let ArrowLeft = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'ArrowLeft'));
+  let ArrowDown = new Key(ARRAY_OF_KEY.find((i) => i.keyName === 'ArrowDown'));
+  let ArrowRight = new Key(
+    ARRAY_OF_KEY.find((i) => i.keyName === 'ArrowRight')
+  );
+  let ControlRight = new Key(
+    ARRAY_OF_KEY.find((i) => i.keyName === 'ControlRight')
+  );
+
   // Create Keyboard Row
-  let kbRow1 = createDomNode('div', 'kbRow');
+  let kbRow1 = createDomNode('div', 'row');
   kbRow1.innerHTML += Backquote.toHTML();
   kbRow1.innerHTML += Digit1.toHTML();
   kbRow1.innerHTML += Digit2.toHTML();
@@ -76,7 +122,7 @@ const addCentralizer = () => {
   kbRow1.innerHTML += Equal.toHTML();
   kbRow1.innerHTML += Backspace.toHTML();
 
-  let kbRow2 = createDomNode('div', 'kbRow');
+  let kbRow2 = createDomNode('div', 'row');
   kbRow2.innerHTML += Tab.toHTML();
   kbRow2.innerHTML += KeyQ.toHTML();
   kbRow2.innerHTML += KeyW.toHTML();
@@ -93,10 +139,54 @@ const addCentralizer = () => {
   kbRow2.innerHTML += Backslash.toHTML();
   kbRow2.innerHTML += Delete.toHTML();
 
+  let kbRow3 = createDomNode('div', 'row');
+  kbRow3.innerHTML += CapsLock.toHTML();
+  kbRow3.innerHTML += KeyA.toHTML();
+  kbRow3.innerHTML += KeyS.toHTML();
+  kbRow3.innerHTML += KeyD.toHTML();
+  kbRow3.innerHTML += KeyF.toHTML();
+  kbRow3.innerHTML += KeyG.toHTML();
+  kbRow3.innerHTML += KeyH.toHTML();
+  kbRow3.innerHTML += KeyJ.toHTML();
+  kbRow3.innerHTML += KeyK.toHTML();
+  kbRow3.innerHTML += KeyL.toHTML();
+  kbRow3.innerHTML += Semicolon.toHTML();
+  kbRow3.innerHTML += Quote.toHTML();
+  kbRow3.innerHTML += Enter.toHTML();
+
+  let kbRow4 = createDomNode('div', 'row');
+  kbRow4.innerHTML += ShiftLeft.toHTML();
+  kbRow4.innerHTML += KeyZ.toHTML();
+  kbRow4.innerHTML += KeyX.toHTML();
+  kbRow4.innerHTML += KeyC.toHTML();
+  kbRow4.innerHTML += KeyV.toHTML();
+  kbRow4.innerHTML += KeyB.toHTML();
+  kbRow4.innerHTML += KeyN.toHTML();
+  kbRow4.innerHTML += KeyM.toHTML();
+  kbRow4.innerHTML += Comma.toHTML();
+  kbRow4.innerHTML += Period.toHTML();
+  kbRow4.innerHTML += Slash.toHTML();
+  kbRow4.innerHTML += ArrowUp.toHTML();
+  kbRow4.innerHTML += ShiftRight.toHTML();
+
+  let kbRow5 = createDomNode('div', 'row');
+  kbRow5.innerHTML += ControlLeft.toHTML();
+  kbRow5.innerHTML += MetaLeft.toHTML();
+  kbRow5.innerHTML += AltLeft.toHTML();
+  kbRow5.innerHTML += Space.toHTML();
+  kbRow5.innerHTML += AltRight.toHTML();
+  kbRow5.innerHTML += ArrowLeft.toHTML();
+  kbRow5.innerHTML += ArrowDown.toHTML();
+  kbRow5.innerHTML += ArrowRight.toHTML();
+  kbRow5.innerHTML += ControlRight.toHTML();
+
   // Create Keyboard
   let keyboard = createDomNode('div', 'keyboard');
   keyboard.append(kbRow1);
   keyboard.append(kbRow2);
+  keyboard.append(kbRow3);
+  keyboard.append(kbRow4);
+  keyboard.append(kbRow5);
 
   // Create Description
   let description = createDomNode('p', 'description');

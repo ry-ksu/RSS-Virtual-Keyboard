@@ -24,7 +24,7 @@ class Key {
   }
 
   toHTML() {
-    let key = `<div class="keyboard-key ${this.keyName}">
+    let key = `<div class="key ${this.keyName}">
                       <span class="ru hidden">
                           <span class="caseDown hidden">${this.ruCaseDown}</span>
                           <span class="caseUp hidden">${this.ruCaseUp}</span>
